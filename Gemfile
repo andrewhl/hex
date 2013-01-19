@@ -10,6 +10,10 @@ gem 'capistrano'
 gem 'rvm-capistrano'
 gem 'passenger'
 
+gem 'eventmachine', '~> 1.0.0'
+gem 'eventmachine_httpserver'
+gem 'em-http-request'
+
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
